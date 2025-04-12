@@ -24,13 +24,13 @@ function Home() {
           </div>
 
           <div className="Links">
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="link">
+      <a href="https://github.com/Sairoop-15" target="_blank" rel="noopener noreferrer" className="link">
         <FaGithub className="icon" />
       </a>
-      <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="link">
+      <a href="https://www.linkedin.com/in/sairoopteja-pathi-04522b207/" target="_blank" rel="noopener noreferrer" className="link">
         <FaLinkedin className="icon" />
       </a>
-      <a href="mailto:your-email@example.com" className="link">
+      <a href="mailto:sairooppathi2005@gmail.com" className="link">
         <SiGmail className="icon" />
       </a>
     </div>

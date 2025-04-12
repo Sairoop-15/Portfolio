@@ -3,16 +3,25 @@ import { motion } from 'framer-motion';
 function Education() {
   const educationData = [
     {
-      degree: "Bachelor's in Computer Science",
-      institution: "Example University",
-      year: "2018-2022",
-      description: "Studied core computer science concepts and modern programming practices."
+      degree: "Bachelor's in Computer Science and Business Systems",
+      institution: "VNR Vignana Jyothi Institute of Engineering and Technology",
+      year: "2023-2027",
+      Percentage:"B.Tech CGPA as of Now : 8.52/10",
+      description: "As part of my CSBS curriculum, I studied core computer science subjects along with business systems and analytics. The course helped me develop problem-solving skills, critical thinking, and a strong understanding of how technology supports business goals. It also improved my communication and professional skills through practical, industry-relevant learning."
     },
     {
-      degree: "Full Stack Development",
-      institution: "Tech Academy",
-      year: "2022-2023",
-      description: "Intensive program covering modern web development technologies."
+      degree: "Intermediate",
+      institution: "Resonance Junior College",
+      year: "2021-2023",
+      Percentage:"Intermediate Grade : 95.2%",
+      description: "I completed my Intermediate education at Resonance Junior College in the MPC (Maths, Physics, Chemistry) stream. The program strengthened my analytical and problem-solving skills, and laid a strong foundation in core subjects that prepared me for engineering studies.."
+    },
+    {
+      degree: "10th",
+      institution: "Vignan Bo Tree School",
+      year: "2020-2021",
+      Percentage:"10th Percentage : 93%",
+      description: "I completed my schooling at Vignan Bo Tree School, where I developed a strong academic foundation. The school provided a comprehensive education, focusing on both academics and extracurricular activities. It helped me build a well-rounded skill set that supported my future academic pursuits."
     }
   ];
 
@@ -32,6 +41,7 @@ function Education() {
               <h3>{edu.degree}</h3>
               <p className="institution">{edu.institution}</p>
               <p className="year">{edu.year}</p>
+              <p className="Percentage">{edu.Percentage}</p>
               <p className="description">{edu.description}</p>
             </div>
             <div className="animated-border"></div>
